@@ -1,0 +1,385 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Profile</title>
+	<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+
+		<style>
+
+		@media screen and (max-width: 426px){
+			
+
+			.dp{
+				width: 77px; 
+				height: 77px;
+				padding-left:50px;
+				padding-right: 20px; 
+				margin-top:100px; }
+
+
+
+			.img1{
+				margin: auto;
+				padding:3%;
+				width:25%;
+			
+			}
+
+			.two{
+				margin:auto;
+				width: 100%;
+				height: 100px;
+				
+			}
+
+
+
+					.threeA{
+						display:flex;
+						justify-content: flex-start;
+					}
+
+					.threeA p{
+						padding-left:7px;
+						
+					}
+
+
+					.threeB{
+						display:flex;
+						justify-content: flex-start;
+					}
+
+					.threeB p{
+						padding-left:7px;
+						
+					}
+
+					.four{
+						height:77px
+						font-size:10px;
+					}
+
+
+					.five{
+						margin: auto;
+						display:flex;
+						justify-content: flex-start;
+					}
+
+							.navbar {
+						    overflow: hidden;
+						  	position: fixed; 
+						    top: 0; 
+						    width: 100%; 
+						    background-color:white;
+							}
+
+							.navbar p {
+
+						    text-align: center;
+						    
+						   
+							}
+
+							.navbar2 {
+						    overflow: hidden;
+						    position: fixed; 
+						    bottom: 0; 
+						    width: 100%; 
+						    background-color:white;
+							}
+
+							.navbar2 a {
+							  float: left;
+							  display: block;
+							  color: black;
+							  text-align: center;
+							  text-decoration: none;
+							  font-size: 17px;
+							  width:25%;
+							}
+
+								#block_mob {
+								 display: none; 
+								} 
+
+
+									   
+}
+
+	 
+	@media screen and (max-width: 1024px) and (min-width: 427px){
+
+		.two{
+			margin: auto;
+			width: 100%;
+			height: 750px;
+		}
+
+		.img1{
+			margin: auto;
+			padding:3%;
+			width:25%;
+		}
+
+					.threeA{
+						display:flex;
+						justify-content: flex-start;
+					}
+
+					.threeA p{
+						padding-left:7px;
+						
+					}
+
+
+					.threeB{
+						display:flex;
+						justify-content: flex-start;
+					}
+
+					.threeB p{
+						padding-left:7px;
+						
+					}
+
+
+					.five{
+						display:flex;
+						justify-content: flex-start;
+			
+						}
+				
+
+
+						.navbar {
+					    overflow: hidden;
+					  	position: fixed; 
+					    top: 0; 
+					    width: 100%; 
+					    background-color:white;
+						}
+
+						.navbar p {
+
+					    text-align: center;
+					    
+					   
+						}
+
+						.navbar2 {
+					    overflow: hidden;
+					    position: fixed; 
+					    bottom: 0; 
+					    width: 100%; 
+					    background-color:white;
+						}
+
+						.navbar2 a {
+						  float: left;
+						  display: block;
+						  color: black;
+						  text-align: center;
+						  text-decoration: none;
+						  font-size: 17px;
+						  width:25%;
+						}
+
+							#block_tab {
+								 display: none; 
+								} 
+
+
+
+	}
+
+		
+
+	@media screen and (max-width: 1440px) and (min-width: 1025px){
+
+			.two{
+			margin: auto;
+			width: 80%;
+			height: 750px;
+		}
+
+		.img1{
+		
+			padding:3%;
+			width:25%;
+		}
+
+					.threeA{
+						display:flex;
+						justify-content: flex-start;
+					}
+
+					.threeA p{
+						padding-left:7px;
+						
+					}
+
+
+					.threeB{
+						display:flex;
+						justify-content: flex-start;
+					}
+
+					.threeB p{
+						padding-left:7px;
+						
+					}
+
+
+					.five{
+						display:flex;
+						justify-content: flex-start;
+			
+						}
+				
+
+
+						.navbar {
+					    overflow: hidden;
+					  	position: fixed; 
+					    top: 0; 
+					    width: 100%; 
+					    background-color:white;
+						}
+
+						.navbar p {
+
+					    text-align: center;
+					    
+					   
+						}
+
+						.navbar2 {
+					    overflow: hidden;
+					    position: fixed; 
+					    bottom: 0; 
+					    width: 100%; 
+					    background-color:white;
+						}
+
+						.navbar2 a {
+						  float: left;
+						  display: block;
+						  color: black;
+						  text-align: center;
+						  text-decoration: none;
+						  font-size: 17px;
+						  width:25%;
+						  padding-top:10px;
+						}
+
+							#block_tab {
+								 display: none; 
+								} 
+		
+	}
+
+
+
+</style>
+</head>
+
+
+<body>
+<div data-role="page">
+  		<div id="pageone" data-role="main" class="ui-content">
+		
+	<div class="navbar">
+		<p> PROFILE</p>
+  	</div>
+	
+	<div class="four" >
+		<div class="five">
+			<div style=" margin:auto;">
+				<img class="dp" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAVWTy3j1HxqTFDpLdsYvwmb59-Z4Hp63Z46_tNw3HqjlCNE6rzw" alt="DP" style="width: 100px; height: 100px; padding-left:50px; padding-right: 20px; margin-top:50px; ">
+			</div>
+
+			<div style="margin-top: 50px; font-size:12px; ">
+				<p>
+					<div class= "threeA">
+						<p >debashish.nayak</p>
+						<p >Following</p>
+					</div>
+				</p>
+
+				<p>
+					<div class= "threeB">
+					<p>60 posts</p>
+					<p id="#followers">277 followers</p>
+					<p id="#following">684 following</p>
+					</div>
+				</p>
+
+				<p id= "block_mob" style= "width:100%; padding-left:10px;">
+				Debashish Nayak • Regret Realize Rise • Wanna-be Otaku • Admirer of Japanese Culture • Art enthusiast • Pokémon Trainer • Front-End Developer • UI/UX Designer • about.me/theindianotaku
+				</p>
+			</div>
+		</div>	
+
+			<p id= "block_tab" style= "width:80%; padding-left:10px; font-size:12px;">
+			Debashish Nayak • Regret Realize Rise • Wanna-be Otaku • Admirer of Japanese Culture • Art enthusiast • Pokémon Trainer • Front-End Developer • UI/UX Designer • about.me/theindianotaku
+			</p>
+		
+
+	</div>
+
+	<div class = "two">
+		
+    
+    		<a href="#myPopup" data-rel="popup" data-position-to="window">
+
+			    <img id="myImg" class="img1"  src="http://www.pitshanger-ltd.co.uk/images/colours/636-Steel%20MR.JPG"  width="300" height="200">
+
+			    <img id="myImg" class="img1"  src="http://www.pitshanger-ltd.co.uk/images/colours/636-Steel%20MR.JPG"  width="300" height="200">
+
+			    <img id="myImg" class="img1"  src="http://www.pitshanger-ltd.co.uk/images/colours/636-Steel%20MR.JPG"  width="300" height="200">
+
+			    <img id="myImg" class="img1"  src="http://www.pitshanger-ltd.co.uk/images/colours/636-Steel%20MR.JPG"  width="300" height="200">
+
+			    <img id="myImg" class="img1"  src="http://www.pitshanger-ltd.co.uk/images/colours/636-Steel%20MR.JPG"  width="300" height="200">
+
+			    <img id="myImg" class="img1"  src="http://www.pitshanger-ltd.co.uk/images/colours/636-Steel%20MR.JPG"  width="300" height="200">
+    		</a>
+
+		    <div data-role="popup" id="myPopup">
+		     
+		      <a href="#pageone" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close
+		      </a>
+
+		      <img src="http://www.pitshanger-ltd.co.uk/images/colours/636-Steel%20MR.JPG" style="width:800px;height:400px;">
+		      		<p>COMMENTS</p> 
+		   
+		  	</div>
+
+  		</div>
+	</div> 
+</div>
+
+	<div class="navbar2">
+	  <a href="#home">
+	  <img src= "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAD1BMVEWvrqn///+9vLiop6K4t7K/yNhHAAABHUlEQVR4nO3dQRGAMAADwULrXzMO+mOYLbcKcgoyrtONrwe8rkJfhb4KfRX6KvRV6KvQV6GvQl+Fvgp9Ffoq9FXoq9BXoa9CX4W+Cn0V+n5XuG7f2hbO4ZsV8ir0Veir0Fehr0Jfhb4KfRX6KvRV6KvQV6GvQl+Fvgp9Ffoq9FXoq9BXoa9CX4W+Cn0V+ir0Veir0Fehr0Jfhb4KfRX6KvRV6KvQV6GvQl+Fvgp9Ffoq9FXoq9BXoa9CX4W+Cn0V+ir0Veir0Fehr0Jfhb4KfRX6KvRV6KvQV6GvQl+Fvgp9Ffoq9FXoq9C3Lzz/0/lAFfoq9FXoq9BXoa9CX4W+Cn0V+ir0Veir0Fehr0Jfhb4KfRX6KvRV6KvQV6HvAYm/YR1uLwsLAAAAAElFTkSuQmCC" 
+		 style="width:42px;height:42px;border:0;"></a>
+
+	  <a href="#news"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAD1BMVEWvrqn///+9vLiop6K4t7K/yNhHAAABHUlEQVR4nO3dQRGAMAADwULrXzMO+mOYLbcKcgoyrtONrwe8rkJfhb4KfRX6KvRV6KvQV6GvQl+Fvgp9Ffoq9FXoq9BXoa9CX4W+Cn0V+n5XuG7f2hbO4ZsV8ir0Veir0Fehr0Jfhb4KfRX6KvRV6KvQV6GvQl+Fvgp9Ffoq9FXoq9BXoa9CX4W+Cn0V+ir0Veir0Fehr0Jfhb4KfRX6KvRV6KvQV6GvQl+Fvgp9Ffoq9FXoq9BXoa9CX4W+Cn0V+ir0Veir0Fehr0Jfhb4KfRX6KvRV6KvQV6GvQl+Fvgp9Ffoq9FXoq9C3Lzz/0/lAFfoq9FXoq9BXoa9CX4W+Cn0V+ir0Veir0Fehr0Jfhb4KfRX6KvRV6KvQV6HvAYm/YR1uLwsLAAAAAElFTkSuQmCC" 
+		 style="width:42px;height:42px;border:0;"></a>
+
+	  <a href="#contact"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAD1BMVEWvrqn///+9vLiop6K4t7K/yNhHAAABHUlEQVR4nO3dQRGAMAADwULrXzMO+mOYLbcKcgoyrtONrwe8rkJfhb4KfRX6KvRV6KvQV6GvQl+Fvgp9Ffoq9FXoq9BXoa9CX4W+Cn0V+n5XuG7f2hbO4ZsV8ir0Veir0Fehr0Jfhb4KfRX6KvRV6KvQV6GvQl+Fvgp9Ffoq9FXoq9BXoa9CX4W+Cn0V+ir0Veir0Fehr0Jfhb4KfRX6KvRV6KvQV6GvQl+Fvgp9Ffoq9FXoq9BXoa9CX4W+Cn0V+ir0Veir0Fehr0Jfhb4KfRX6KvRV6KvQV6GvQl+Fvgp9Ffoq9FXoq9C3Lzz/0/lAFfoq9FXoq9BXoa9CX4W+Cn0V+ir0Veir0Fehr0Jfhb4KfRX6KvRV6KvQV6HvAYm/YR1uLwsLAAAAAElFTkSuQmCC" 
+		 style="width:42px;height:42px;border:0;"></a>
+
+	  <a href="#about"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAD1BMVEWvrqn///+9vLiop6K4t7K/yNhHAAABHUlEQVR4nO3dQRGAMAADwULrXzMO+mOYLbcKcgoyrtONrwe8rkJfhb4KfRX6KvRV6KvQV6GvQl+Fvgp9Ffoq9FXoq9BXoa9CX4W+Cn0V+n5XuG7f2hbO4ZsV8ir0Veir0Fehr0Jfhb4KfRX6KvRV6KvQV6GvQl+Fvgp9Ffoq9FXoq9BXoa9CX4W+Cn0V+ir0Veir0Fehr0Jfhb4KfRX6KvRV6KvQV6GvQl+Fvgp9Ffoq9FXoq9BXoa9CX4W+Cn0V+ir0Veir0Fehr0Jfhb4KfRX6KvRV6KvQV6GvQl+Fvgp9Ffoq9FXoq9C3Lzz/0/lAFfoq9FXoq9BXoa9CX4W+Cn0V+ir0Veir0Fehr0Jfhb4KfRX6KvRV6KvQV6HvAYm/YR1uLwsLAAAAAElFTkSuQmCC"
+		 style="width:42px;height:42px;border:0;"></a>
+	</div>
+
+
+
+</body>  
+</html>
