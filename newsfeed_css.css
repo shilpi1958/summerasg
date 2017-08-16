@@ -1,0 +1,265 @@
+
+ @media screen and (max-width: 426px){
+	body{
+		background-color:#ecf0f1;
+	}
+	.one{
+		display:inline;
+		
+		}
+
+	.img1{
+		
+		width:100%; 
+		padding-right: 20px;
+		padding-bottom:30px;
+	}
+
+	.holder{
+		 margin-top: 100px;
+	    background-color: white;
+	    background-size:100%;
+	    margin-bottom: 50px;
+	    border: 2px;
+	    border-style: ridge;
+	    border-color: #ecf0f1;
+	    border-radius: 5px;
+
+
+	   
+	}
+
+	.post{
+		width:50px; 
+		height:50px; 
+		float:left; 
+		padding-left: 10px;
+		padding-right: 20px;
+		padding-top: 10px;"
+	}
+					.navbar {
+					    overflow: hidden;
+					  	position: fixed; 
+					    top: 0; 
+					    left:0;
+					    width: 100%; 
+					    background-color:white;
+					    left:0px;
+						}
+
+						
+
+						.navbar2 {
+					    overflow: hidden;
+					    position: fixed; 
+					    bottom: 0; 
+					    width: 100%; 
+					    background-color:white;
+					    left:0px;
+						}
+
+						.navbar2 a {
+						  float: left;
+						  display: block;
+						  color: black;
+						  text-align: center;
+						  text-decoration: none;
+						  font-size: 17px;
+						  width:25%;
+						  padding-top:10px;
+						}
+
+						.icons{
+							width:40px;
+							height:40px; 
+							float:right; 
+							padding:10px; 
+							padding-left:3px;  
+				  			padding-right:20px;"
+							}
+
+						.iconsL{
+							
+							padding:15px;
+							float:left;"
+						}
+
+}
+
+@media screen and (max-width: 1024px) and (min-width: 427px){
+	body{
+		background-color:#ecf0f1;
+	}
+	.one{
+		display:inline;
+		}
+
+	.two{
+		width: 60%;
+		height: 750px;
+		margin: auto;
+	}
+
+	.img1{
+		
+		margin: auto;
+		width:100%; 
+		padding-bottom: 30px;
+
+	}
+
+	.holder{
+	    background-color: white;
+	    background-size:100%;
+	    margin-bottom: 50px;
+	    margin-top: 100px;
+	    border: 2px;
+	    border-style: ridge;
+	    border-color: #ecf0f1;
+	    border-radius: 5px;
+
+
+	   
+	}
+
+	.post{
+		width:50px; 
+		height:50px; 
+		float:left; 
+		padding-left:10px;
+		padding-right:20px;
+		padding-top:10px;"
+	}
+					.navbar {
+					    overflow: hidden;
+					  	position: fixed; 
+					    top: 0; 
+					    width: 100%; 
+					    background-color:white;
+					    border: 2px;
+					    border-style: ridge;
+					    border-color: #ecf0f1;
+					    border-radius: 5px;
+					     left:0px;
+						}
+
+						
+						.navbar2 {
+					    overflow: hidden;
+					    position: fixed; 
+					    bottom: 0; 
+					    width: 100%; 
+					    background-color:white;
+					    left:0px;
+						}
+
+						.navbar2 a {
+						  float: left;
+						  display: block;
+						  color: black;
+						  text-align: center;
+						  text-decoration: none;
+						  font-size: 17px;
+						  width:25%;
+						  padding-top:10px;
+						}
+
+						.icons{
+								width:40px;
+								height:40px; 
+								float:right; 
+								padding:10px; 
+								padding-left:3px;  
+				  				padding-right:20px;"
+							}
+
+							.iconsL{
+							
+							padding:15px;
+							float:left;"
+						}
+
+
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1025px){
+	body{
+		background-color:#ecf0f1;
+	}
+	.one{
+		display:inline;
+		}
+
+	.two{
+		width: 60%;
+		margin: auto;
+		padding:100px;
+	}
+
+	.img1{
+		
+		width:100%; 
+		padding-bottom:30px;
+
+	}
+
+	.holder{
+	    background-color: white;
+	    background-size:100%;
+	    margin-bottom: 50px;
+	    border: 2px;
+	    border-style: ridge;
+	    border-color: #ecf0f1;
+	    border-radius: 5px;
+
+
+	   
+	}
+
+	.post{
+		width:50px; 
+		height:50px; 
+		float:left; 
+		padding-left: 10px;
+		padding-right: 20px;
+		padding-top: 10px;"
+	}
+
+
+						.navbar {
+					    overflow: hidden;
+					  	position: fixed; 
+					    top: 0; 
+					    width: 100%; 
+					    background-color:white;
+					    border: 2px;
+					    border-style: ridge;
+					    border-color: #ecf0f1;
+					    border-radius: 5px;
+					    left:0px;
+						}
+
+						
+
+						.navbar2 {
+					    display:none;
+						}
+
+						
+						.icons{
+								width:40px;
+								height:40px; 
+								float:right; 
+								padding:10px; 
+								padding-left:3px;  
+				  				padding-right:20px;"
+							}
+
+							.iconsL{
+							
+							padding:15px;
+							float:left;"
+						}
+
+}
+	
